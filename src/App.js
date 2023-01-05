@@ -1,12 +1,15 @@
 import React from 'react'
 import { Routes, Route } from "react-router-dom";
+import Sidebar from './components/Sidebar';
+import { GlobalStyles } from './components/styles/GlobalStyles';
 
 const App = () => {
   return (
-    <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
-    </Routes>
+    <GlobalStyles>
+        <Routes>
+            <Route path="/" element={<Sidebar />} />
+        </Routes>
+    </GlobalStyles>
   )
 }
 

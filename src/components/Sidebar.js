@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 import { Button } from './styles/Button.styled'
 import { Flex, FlexSidebar } from './styles/Flex.styled'
 import { StyledSidebar } from './styles/Sidebar.styled'
@@ -8,27 +9,25 @@ const Sidebar = () => {
     <StyledSidebar>
        <FlexSidebar>
             <Flex>
-                <Button>1</Button>
+                <Button><Link to="">1</Link></Button>
                 <div>
                    <p>Step 1<br ></br><span>YOUR INFO</span></p>
-                    
                 </div>
             </Flex>
             <Flex>
-                <Button>2</Button>
+                <Button><Link to="">2</Link></Button>
                 <div>
                     <p>Step 2<br /><span>SELECT PLAN</span></p>
-                    
                 </div>  
             </Flex>
             <Flex>
-                <Button>3</Button>
+                <Button><Link to="">3</Link></Button>
                 <div>
                     <p>Step 3<br /><span>ADD-ONS</span></p> 
                 </div>
             </Flex>
             <Flex>
-                <Button>4</Button>
+                <Button><Link to="">4</Link></Button>
                 <div>
                     <p>Step 4<br /><span>SUMMARY</span></p>
                 </div> 

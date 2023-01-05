@@ -1,8 +1,7 @@
 import React from 'react'
 import { Routes, Route } from "react-router-dom";
-import Sidebar from './components/Sidebar';
-import { GlobalStyles } from './components/styles/GlobalStyles';
 import { ThemeProvider } from 'styled-components';
+import Step1Combined from './components/Step1Combined';
 
 const theme = {
     mobile: '768px',
@@ -11,11 +10,9 @@ const theme = {
 const App = () => {
   return (
     <ThemeProvider theme = {theme}>
-        <GlobalStyles>
-            <Routes>
-                <Route path="/" element={<Sidebar />} />
-            </Routes>
-        </GlobalStyles>
+        <Routes>
+            <Route path="/" element={<Step1Combined />} />
+        </Routes>
     </ThemeProvider>
   )
 }

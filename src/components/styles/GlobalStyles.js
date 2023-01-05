@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const GlobalStyles = styled.body`
     * {
         box-sizing: border-box;
+        
     }
 
     body {
@@ -19,9 +20,15 @@ export const GlobalStyles = styled.body`
         font-size: 16px;
     }
 
+    a {
+        text-decoration: none;
+        color: hsl(0, 0%, 100%);
+    }
+
     span {
         color: hsl(0, 0%, 100%);
         font-size: 18px;
         font-weight: 700;
     }
+
 `

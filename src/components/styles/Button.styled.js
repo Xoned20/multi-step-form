@@ -10,9 +10,20 @@ export const Button = styled.button`
     background-color: transparent;
     color: hsl(0, 0%, 100%);
 
-    &:hover {
-        opacity: 0.9;
-        transform: scale(0.98)
+    &:hover { 
+        background-color: hsl(228, 100%, 84%);
+    }
+
+    &:active { 
+        background-color: hsl(228, 100%, 84%);
+    }
+
+    &:focus { 
+        background-color: hsl(228, 100%, 84%);
+    }
+
+    @media(max-width: ${({theme}) => theme.mobile}){
+        
     }
 
 `;

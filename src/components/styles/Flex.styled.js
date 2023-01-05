@@ -11,7 +11,6 @@ export const Flex = styled.div`
 `;
 
 export const FlexSidebar = styled.div`
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 40px 80px 246px 25px;

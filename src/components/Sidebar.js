@@ -10,29 +10,27 @@ const Sidebar = () => {
             <Flex>
                 <Button>1</Button>
                 <div>
-                   <p>Step 1</p>
-                    <h4>YOUR INFO</h4> 
+                   <p>Step 1<br ></br><span>YOUR INFO</span></p>
+                    
                 </div>
             </Flex>
             <Flex>
                 <Button>2</Button>
                 <div>
-                    <p>Step 2</p>
-                    <h4>SELECT PLAN</h4> 
+                    <p>Step 2<br /><span>SELECT PLAN</span></p>
+                    
                 </div>  
             </Flex>
             <Flex>
                 <Button>3</Button>
                 <div>
-                    <p>Step 3</p>
-                    <h4>ADD-ONS</h4>
+                    <p>Step 3<br /><span>ADD-ONS</span></p> 
                 </div>
             </Flex>
             <Flex>
                 <Button>4</Button>
                 <div>
-                    <p>Step 4</p>
-                    <h4>SUMMARY</h4>
+                    <p>Step 4<br /><span>SUMMARY</span></p>
                 </div> 
             </Flex>
        </FlexSidebar>

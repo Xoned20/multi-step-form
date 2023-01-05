@@ -19,7 +19,9 @@ export const GlobalStyles = styled.body`
         font-size: 16px;
     }
 
-    h4 {
+    span {
         color: hsl(0, 0%, 100%);
+        font-size: 18px;
+        font-weight: 700;
     }
 `

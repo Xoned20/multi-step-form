@@ -5,6 +5,8 @@ export const StyledSidebar = styled.div`
     background-repeat: no-repeat;
     width: max-content;
     flex: 0.2;
-    text-align: center;
-    
+
+    @media(max-width: ${({theme}) => theme.mobile}){
+        background-image: url(./images/bg-sidebar-mobile.svg);
+    }
 `

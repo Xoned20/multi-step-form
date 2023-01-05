@@ -6,7 +6,7 @@ export const Button = styled.button`
     cursor: pointer;
     font-size: 16px;
     font-weight: 700;
-    /* padding: 15px 60px; */
+    margin-right: 15px;
     background-color: transparent;
     color: hsl(0, 0%, 100%);
 

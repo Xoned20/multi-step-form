@@ -40,4 +40,8 @@ export const SubmitButton = styled.button`
     background-color: hsl(213, 96%, 18%);
     color: hsl(0, 0%, 100%);
     font-family: Ubuntu-Regular;
+
+    @media(max-width: ${({theme}) => theme.mobile}){
+       margin-top: 0.1em;
+    }
 `

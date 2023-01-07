@@ -1,14 +1,15 @@
 import React from 'react'
 import { StyledCard } from './styles/Card.styled'
 
-const Card = ({item: { id, title, body, image } }) => {
+const Card = () => {
   return (
     <StyledCard>
         <div>
-          <img src={`./images/${image}`} alt="" />
+          <img src="./images/icon-arcade.svg" alt="" />
         </div>
-
         <div>
+          <h3>Arcade</h3>
+          <span>$9/mo</span>
         </div>
     </StyledCard>
   )

@@ -7,4 +7,8 @@ export const Container = styled.div`
     margin: 0;
     display: flex;
     justify-content: space-between;
+
+    @media(max-width: ${({theme}) => theme.mobile}){
+        flex-direction: column;
+    }
 `;

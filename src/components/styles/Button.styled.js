@@ -24,7 +24,7 @@ export const Button = styled.button`
     }
 
     @media(max-width: ${({theme}) => theme.mobile}){
-        
+       flex-direction: row;
     }
 
 `;

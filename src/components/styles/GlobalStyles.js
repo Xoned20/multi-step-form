@@ -38,4 +38,8 @@ export const GlobalStyles = styled.body`
         font-weight: 700;
     }
 
+
+    @media(max-width: ${({theme}) => theme.mobile}){
+        flex-direction: column;
+    }
 `

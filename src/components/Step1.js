@@ -1,11 +1,11 @@
 import React from 'react'
 import { SubmitButton } from './styles/Button.styled'
 import { FlexForm } from './styles/Flex.styled'
-import { StyledStep1 } from './styles/Step1.styled'
+import { StyledStep } from './styles/Step.styled'
 
 const Step1 = () => {
   return (
-    <StyledStep1> 
+    <StyledStep> 
         <h1>Personal info</h1>
         <p>Please provide your name, email address and phone number.</p>
         <form>
@@ -23,7 +23,7 @@ const Step1 = () => {
           </FlexForm>   
         </form>
         <SubmitButton type='submit'>Next</SubmitButton>  
-      </StyledStep1>
+      </StyledStep>
   )
 }
 

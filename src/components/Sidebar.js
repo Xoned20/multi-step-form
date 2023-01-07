@@ -9,13 +9,13 @@ const Sidebar = () => {
     <StyledSidebar>
        <FlexSidebar>
             <Flex>
-                <Button><Link to="">1</Link></Button>
+                <Button><Link to="/">1</Link></Button>
                 <div>
                    <p>STEP 1<br ></br><span>YOUR INFO</span></p>
                 </div>
             </Flex>
             <Flex>
-                <Button><Link to="">2</Link></Button>
+                <Button><Link to="/step2combined">2</Link></Button>
                 <div>
                     <p>STEP 2<br /><span>SELECT PLAN</span></p>
                 </div>  

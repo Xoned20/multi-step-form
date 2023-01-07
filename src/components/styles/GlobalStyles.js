@@ -12,11 +12,11 @@ export const GlobalStyles = styled.body`
         color: hsl(0, 0%, 100%);
         width: 100%;
         display: flex;
-        align-items: center;
+        /* align-items: center; */
     }
 
     p {
-        color: hsl(229, 24%, 87%);
+        color: hsl(231, 11%, 63%);
         font-size: 16px;
     }
 

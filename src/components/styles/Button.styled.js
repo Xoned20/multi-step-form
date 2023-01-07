@@ -27,3 +27,14 @@ export const Button = styled.button`
     }
 
 `;
+
+export const SubmitButton = styled.button`
+    border-radius: 10px;
+    width: 8em;
+    height: 3em;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: hsl(213, 96%, 18%);
+    color: hsl(0, 0%, 100%);
+`

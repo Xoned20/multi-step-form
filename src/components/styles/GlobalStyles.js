@@ -1,6 +1,11 @@
 import styled from "styled-components";
 
 export const GlobalStyles = styled.body`
+    @font-face {
+    font-family: Ubuntu-Regular;
+    src: url(./fonts/Ubuntu-Regular.ttf);
+    }
+
     * {
         box-sizing: border-box;
         
@@ -8,7 +13,7 @@ export const GlobalStyles = styled.body`
 
     body {
         background-color: hsl(0, 0%, 100%);
-        font-family: Ubuntu;
+        font-family: Ubuntu-Regular;
         color: hsl(0, 0%, 100%);
         width: 100%;
         display: flex;
@@ -18,6 +23,7 @@ export const GlobalStyles = styled.body`
     p {
         color: hsl(231, 11%, 63%);
         font-size: 16px;
+        font-family: Ubuntu-Regular;
     }
 
     a {
@@ -28,6 +34,7 @@ export const GlobalStyles = styled.body`
     span {
         color: hsl(0, 0%, 100%);
         font-size: 18px;
+        font-family: Ubuntu-Regular;
         font-weight: 700;
     }
 

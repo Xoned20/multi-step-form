@@ -9,6 +9,7 @@ export const Button = styled.button`
     margin-right: 15px;
     background-color: transparent;
     color: hsl(0, 0%, 100%);
+    font-family: Ubuntu-Regular;
 
     &:hover { 
         background-color: hsl(228, 100%, 84%);
@@ -37,4 +38,5 @@ export const SubmitButton = styled.button`
     font-weight: 700;
     background-color: hsl(213, 96%, 18%);
     color: hsl(0, 0%, 100%);
+    font-family: Ubuntu-Regular;
 `

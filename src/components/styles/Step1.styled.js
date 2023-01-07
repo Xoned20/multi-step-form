@@ -3,6 +3,9 @@ import styled from "styled-components"
 export const StyledStep1 = styled.section`
     background-color: hsl(0, 0%, 100%);
     flex: 0.4;
+    text-align: right;
+    font-family: Ubuntu-Regular;
+
 
     form {
         display: flex;
@@ -14,6 +17,7 @@ export const StyledStep1 = styled.section`
         margin-bottom: 0.3em;
         color: hsl(213, 96%, 18%);
         font-weight: 700px;
+        font-size: 16px;
     }
 
     input {
@@ -26,6 +30,11 @@ export const StyledStep1 = styled.section`
     h1 {
         font-size: 35px;
         color: hsl(213, 96%, 18%);
+        text-align: left;
+    }
+
+    p {
+        text-align: left;
     }
 
 `;

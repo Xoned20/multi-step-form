@@ -25,6 +25,9 @@ export const StyledStep1 = styled.section`
         height: 3em;
         border: 1px hsl(229, 24%, 87%) solid;
         border-radius: 8px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 14px;
     }
 
     h1 {

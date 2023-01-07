@@ -10,19 +10,19 @@ const Step1 = () => {
         <p>Please provide your name, email address and phone number.</p>
         <form>
           <FlexForm>
-            <label for="name">Name</label>
-            <input type="text" value="" id="name" required />
+            <label for="fname">Name</label>
+            <input type="text" name="fname" id="fname" required />
           </FlexForm>
           <FlexForm>
             <label for="email">Email Address</label>
-            <input type="email" value="" id="email" required />
+            <input type="email" name="email" id="email" required />
           </FlexForm>
           <FlexForm>
-            <label id="tel">Phone Number</label>
-            <input type="tel" value="" id="tel" required />
+            <label id="phoneno">Phone Number</label>
+            <input type="tel" name="phoneno" id="phoneno" required />
           </FlexForm>   
         </form>
-        <SubmitButton>Next Step</SubmitButton>  
+        <SubmitButton type='submit'>Next</SubmitButton>  
       </StyledStep1>
   )
 }

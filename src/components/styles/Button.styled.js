@@ -33,6 +33,7 @@ export const SubmitButton = styled.button`
     border-radius: 10px;
     width: 8em;
     height: 3em;
+    margin-top: 60px;
     cursor: pointer;
     font-size: 16px;
     font-weight: 700;

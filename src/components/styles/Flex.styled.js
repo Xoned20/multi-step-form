@@ -15,15 +15,10 @@ export const FlexSidebar = styled.div`
     align-items: flex-start;
     padding-left: 2em;
     padding-top: 2em;
-    /* align-items: flex-start; */
-    /* padding: 40px 80px 246px 25px; */
-    /* width: 276px; */
 
     @media(max-width: ${({theme}) => theme.mobile}){
         flex-direction: row;
         justify-content: center;
-        /* padding: 70px 50px; */
-        /* margin: auto; */
     }
 `
 

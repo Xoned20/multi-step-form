@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const StyledStep1 = styled.section`
     background-color: hsl(0, 0%, 100%);
+    background-size: contain;
     flex: 0.4;
     text-align: right;
     font-family: Ubuntu-Regular;
@@ -10,18 +11,19 @@ export const StyledStep1 = styled.section`
     form {
         display: flex;
         flex-direction: column;
-        margin-top: 50px;
+        margin-top: 3em;
+        margin-bottom: 2em;
     }
 
     label {
-        margin-bottom: 0.3em;
+        margin-bottom: 0.5em;
         color: hsl(213, 96%, 18%);
         font-weight: 700px;
         font-size: 16px;
     }
 
     input {
-        width: 40em;
+        width: 37em;
         height: 3em;
         border: 1px hsl(229, 24%, 87%) solid;
         border-radius: 8px;

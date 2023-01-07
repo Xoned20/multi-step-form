@@ -8,7 +8,6 @@ export const GlobalStyles = styled.body`
 
     * {
         box-sizing: border-box;
-        
     }
 
     body {
@@ -17,6 +16,8 @@ export const GlobalStyles = styled.body`
         color: hsl(0, 0%, 100%);
         width: 100%;
         display: flex;
+        margin: 0;
+        padding: 0;
         /* align-items: center; */
     }
 

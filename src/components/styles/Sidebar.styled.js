@@ -9,8 +9,9 @@ export const StyledSidebar = styled.section`
     @media(max-width: ${({theme}) => theme.mobile}){
         background-image: url(./images/bg-sidebar-mobile.svg);
         background-size: cover;
+        min-height: 120px;
         z-index: 1;
-        
+
         p {
             display: none;
         }

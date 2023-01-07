@@ -19,6 +19,7 @@ export const FlexSidebar = styled.div`
     @media(max-width: ${({theme}) => theme.mobile}){
         flex-direction: row;
         justify-content: center;
+        padding: 0;
     }
 `
 

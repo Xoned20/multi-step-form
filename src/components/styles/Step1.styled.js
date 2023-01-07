@@ -46,8 +46,8 @@ export const StyledStep1 = styled.section`
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         border-radius: 15px;
         width: 20em;
-        padding: 20px;
-        align-items: center;
+        padding: 2px 10px 0px 20px;
+        margin: auto;
 
         form {
         margin-top: 0.4em;

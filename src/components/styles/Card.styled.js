@@ -22,3 +22,7 @@ export const StyledCard = styled.div`
         flex-direction: column;
     }
 `;
+
+export const InlineCard = styled.div`
+    display: flex;
+`

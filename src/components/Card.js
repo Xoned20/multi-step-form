@@ -9,8 +9,7 @@ const Card = () => {
           <img src="./images/icon-arcade.svg" alt="" />
         </div>
         <div>
-          <h3>Arcade</h3>
-          <span>$9/mo</span>
+          <p>Arcade<br ></br><span>$9/mo</span></p>
         </div>
       </InlineCard>
       <InlineCard>
@@ -18,8 +17,7 @@ const Card = () => {
           <img src="./images/icon-advanced.svg" alt="" />
         </div>
         <div>
-          <h3>Advanced</h3>
-          <span>$12/mo</span>
+          <p>Advanced<br ></br><span>$12/mo</span></p>
         </div>
       </InlineCard>
       <InlineCard>
@@ -27,8 +25,7 @@ const Card = () => {
           <img src="./images/icon-pro.svg" alt="" />
         </div>
         <div>
-          <h3>Pro</h3>
-          <span>$15/mo</span>
+          <p>Pro<br ></br><span>$15/mo</span></p>
         </div>
       </InlineCard>
     </StyledCard>

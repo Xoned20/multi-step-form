@@ -42,7 +42,7 @@ export const StyledStep = styled.section`
         text-align: left;
     }
 
-    h3 {
+    span {
         color: hsl(231, 11%, 63%);
         font-weight: 700;
         margin-left: 7px;

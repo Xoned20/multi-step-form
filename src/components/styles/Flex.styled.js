@@ -33,8 +33,10 @@ export const FlexForm = styled.div`
 
 export const FlexToggle = styled.div`
     display: flex;
-    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
     background-color: hsl(217, 100%, 97%);
     border: 1px hsl(0, 0, 100%);
-    border-radius: 15px;
+    border-radius: 12px;
 `

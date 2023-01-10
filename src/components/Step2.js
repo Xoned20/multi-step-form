@@ -11,7 +11,7 @@ const Step2 = () => {
         <p>You have the option of yearly or monthly billing</p>
         <Card />
         <FlexToggle>
-          <h3>Monthly</h3><Toggle /><h3>Yearly</h3>
+          <span>Monthly</span><Toggle /><span>Yearly</span>
         </FlexToggle>
     </StyledStep>
   )

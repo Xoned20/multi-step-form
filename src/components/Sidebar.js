@@ -9,25 +9,25 @@ const Sidebar = () => {
     <StyledSidebar>
        <FlexSidebar>
             <Flex>
-                <Button><Link to="/">1</Link></Button>
+                <Link to="/"><Button>1</Button></Link>
                 <div>
                    <p>STEP 1<br ></br><span>YOUR INFO</span></p>
                 </div>
             </Flex>
             <Flex>
-                <Button><Link to="/step2combined">2</Link></Button>
+                <Link to="/step2combined"><Button>2</Button></Link>
                 <div>
                     <p>STEP 2<br /><span>SELECT PLAN</span></p>
                 </div>  
             </Flex>
             <Flex>
-                <Button><Link to="">3</Link></Button>
+                <Link to=""><Button>3</Button></Link>
                 <div>
                     <p>STEP 3<br /><span>ADD-ONS</span></p> 
                 </div>
             </Flex>
             <Flex>
-                <Button><Link to="">4</Link></Button>
+                <Link to=""><Button>4</Button></Link>
                 <div>
                     <p>STEP 4<br /><span>SUMMARY</span></p>
                 </div> 

@@ -23,7 +23,7 @@ const Step1 = () => {
             <input type="tel" name="phoneno" id="phoneno" required />
           </FlexForm>   
         </form>
-        <RightSubmitButton type='submit'><Link to="/step2combined">Next</Link></RightSubmitButton>  
+        <Link to="/step2combined"><RightSubmitButton type='submit'>Next</RightSubmitButton></Link>
       </StyledStep>
   )
 }

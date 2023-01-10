@@ -25,8 +25,8 @@ const Step2 = () => {
           <span>Monthly</span><Switch onClick={toggler} /><span>Yearly</span>
         </FlexToggle>
         <ButtonFlex>
-          <LeftSubmitButton type='submit'><Link to="/">Go Back</Link></LeftSubmitButton>
-          <RightSubmitButton type='submit'><Link to="/">Next</Link></RightSubmitButton>
+          <Link to="/"><LeftSubmitButton type='submit'>Go Back</LeftSubmitButton></Link>
+          <Link to="/"><RightSubmitButton type='submit'>Next</RightSubmitButton></Link>
         </ButtonFlex>
     </StyledStep>
   )

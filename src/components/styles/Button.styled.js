@@ -43,6 +43,7 @@ export const RightSubmitButton = styled.button`
     cursor: pointer;
     font-size: 16px;
     font-weight: 700;
+    color: hsl(0, 0%, 100%);
     background-color: hsl(213, 96%, 18%);
     font-family: Ubuntu-Regular;
 

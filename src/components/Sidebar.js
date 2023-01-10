@@ -21,7 +21,7 @@ const Sidebar = () => {
                 </div>  
             </Flex>
             <Flex>
-                <Link to=""><Button>3</Button></Link>
+                <Link to="/step3combined"><Button>3</Button></Link>
                 <div>
                     <p>STEP 3<br /><span>ADD-ONS</span></p> 
                 </div>

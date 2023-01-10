@@ -29,6 +29,7 @@ export const InlineCard = styled.div`
     margin: 0.6em;
     padding-left: 16px;
     padding-top: 12px;
+    padding-bottom: 10px;
     flex-direction: column;
     align-items: flex-start;
 
@@ -45,8 +46,15 @@ export const InlineCard = styled.div`
         color: hsl(213, 96%, 18%);
     }
 
+    em {
+        font-size: 14px;
+        font-weight: 400;
+        text-align: left;
+        color: hsl(213, 96%, 18%);
+    }
+
     img {
         width: 50px;
-        padding-bottom: 60px;
+        padding-bottom: 50px;
     }
 `

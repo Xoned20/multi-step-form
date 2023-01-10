@@ -16,13 +16,14 @@ export const StyledCard = styled.div`
 
     @media(max-width: ${({theme}) => theme.mobile}){
         flex-direction: column;
+        align-items: center;
     }
 `;
 
-export const InlineCard = styled.div`
+export const InlineCard = styled.button`
     display: flex;
-    width: 10em;
-    height: 13em;
+    width: 12em;
+    height: 15.8em;
     background-color: #fff;
     border-radius: 15px;
     border: 1px hsl(229, 24%, 87%) solid;
@@ -32,6 +33,17 @@ export const InlineCard = styled.div`
     padding-bottom: 10px;
     flex-direction: column;
     align-items: flex-start;
+    cursor: pointer;
+
+    &:hover { 
+        border: 1px hsl(243, 100%, 62%) solid;
+        background-color: hsl(217, 100%, 97%);
+    }
+
+    &:active { 
+        background-color: hsl(217, 100%, 97%);
+        border: 1px hsl(243, 100%, 62%) solid;
+    }
 
     span {
         color: hsl(231, 11%, 63%);
@@ -56,5 +68,14 @@ export const InlineCard = styled.div`
     img {
         width: 50px;
         padding-bottom: 50px;
+    }
+
+    @media(max-width: ${({theme}) => theme.mobile}){
+        width: 15em;
+        height: 15em;
+
+        img {
+        padding-bottom: 40px;
+    }
     }
 `

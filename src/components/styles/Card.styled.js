@@ -71,11 +71,18 @@ export const InlineCard = styled.button`
     }
 
     @media(max-width: ${({theme}) => theme.mobile}){
-        width: 15em;
-        height: 15em;
+        width: 20em;
+        height: 6em;
+        flex-direction: row;
+        align-items: flex-start;
 
         img {
-        padding-bottom: 40px;
-    }
+        padding-bottom: 0px;
+        margin-right: 18px;
+        }
+
+        p {
+            margin: 0;
+        }
     }
 `

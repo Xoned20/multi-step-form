@@ -46,8 +46,8 @@ export const StyledStep = styled.section`
     @media(max-width: ${({theme}) => theme.mobile}){
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         border-radius: 15px;
-        width: 20em;
-        padding: 2px 10px 0px 20px;
+        width: 21em;
+        padding: 2px 10px 5px 20px;
         margin: auto;
 
         form {

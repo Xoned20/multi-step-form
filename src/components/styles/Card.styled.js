@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const StyledCard = styled.div`
     display: flex;
     flex-direction: row;
-    margin-bottom: 40px;
+    margin-top: 3em;
+    margin-bottom: 2em;
 
     img {
         width: 80%;
@@ -21,6 +22,7 @@ export const StyledCard = styled.div`
 export const InlineCard = styled.div`
     display: flex;
     width: 10em;
+    height: 13em;
     background-color: #fff;
     border-radius: 15px;
     border: 1px hsl(229, 24%, 87%) solid;
@@ -45,6 +47,6 @@ export const InlineCard = styled.div`
 
     img {
         width: 50px;
-        padding-bottom: 40px;
+        padding-bottom: 60px;
     }
 `

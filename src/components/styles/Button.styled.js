@@ -10,7 +10,11 @@ export const Button = styled.button`
     background-color: transparent;
     color: hsl(0, 0%, 100%);
     font-family: Ubuntu-Regular;
-
+    
+    a {
+        color: hsl(0, 0%, 100%);
+    }
+    
     &:hover { 
         background-color: hsl(228, 100%, 84%);
     }
@@ -30,8 +34,9 @@ export const Button = styled.button`
 
 `;
 
-export const SubmitButton = styled.button`
+export const RightSubmitButton = styled.button`
     border-radius: 10px;
+    border: 1px hsl(213, 96%, 18%) solid ;
     width: 8em;
     height: 3em;
     margin-top: 60px;
@@ -39,8 +44,32 @@ export const SubmitButton = styled.button`
     font-size: 16px;
     font-weight: 700;
     background-color: hsl(213, 96%, 18%);
-    color: hsl(0, 0%, 100%);
     font-family: Ubuntu-Regular;
+
+    a {
+        color: hsl(0, 0%, 100%);
+    }
+
+    @media(max-width: ${({theme}) => theme.mobile}){
+       margin-top: 0.1em;
+    }
+`
+
+export const LeftSubmitButton = styled.button`
+    border-radius: 10px;
+    width: 8em;
+    height: 3em;
+    margin-top: 60px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: hsl(0, 0%, 100%);
+    border: none;
+    font-family: Ubuntu-Regular;
+
+    a {
+        color: hsl(231, 11%, 63%);
+    }
 
     @media(max-width: ${({theme}) => theme.mobile}){
        margin-top: 0.1em;

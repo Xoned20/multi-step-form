@@ -1,7 +1,8 @@
 import React from 'react'
-import { SubmitButton } from './styles/Button.styled'
+import { RightSubmitButton } from './styles/Button.styled'
 import { FlexForm } from './styles/Flex.styled'
 import { StyledStep } from './styles/Step.styled'
+import { Link } from 'react-router-dom'
 
 const Step1 = () => {
   return (
@@ -22,7 +23,7 @@ const Step1 = () => {
             <input type="tel" name="phoneno" id="phoneno" required />
           </FlexForm>   
         </form>
-        <SubmitButton type='submit'>Next</SubmitButton>  
+        <RightSubmitButton type='submit'><Link to="/step2combined">Next</Link></RightSubmitButton>  
       </StyledStep>
   )
 }

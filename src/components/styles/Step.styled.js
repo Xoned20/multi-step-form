@@ -42,12 +42,6 @@ export const StyledStep = styled.section`
         text-align: left;
     }
 
-    span {
-        color: hsl(231, 11%, 63%);
-        font-weight: 700;
-        margin-left: 7px;
-        margin-right: 7px;
-    }
 
     @media(max-width: ${({theme}) => theme.mobile}){
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;

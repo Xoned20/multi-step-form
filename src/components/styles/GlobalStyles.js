@@ -29,14 +29,11 @@ export const GlobalStyles = styled.body`
 
     a {
         text-decoration: none;
-        color: hsl(0, 0%, 100%);
+        /* color: white; */
     }
 
     span {
-        color: hsl(0, 0%, 100%);
-        font-size: 18px;
         font-family: Ubuntu-Regular;
-        font-weight: 700;
     }
 
 

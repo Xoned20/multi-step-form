@@ -31,3 +31,7 @@ export const FlexForm = styled.div`
     margin-bottom: 2em;
 `;
 
+export const FlexToggle = styled.div`
+    display: flex;
+    align-items: center;
+`

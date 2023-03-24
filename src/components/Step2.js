@@ -26,7 +26,7 @@ const Step2 = () => {
         </FlexToggle>
         <ButtonFlex>
           <Link to="/"><LeftSubmitButton type='submit'>Go Back</LeftSubmitButton></Link>
-          <Link to="/"><RightSubmitButton type='submit'>Next</RightSubmitButton></Link>
+          <Link to="/Step3Combined"><RightSubmitButton type='submit'>Next</RightSubmitButton></Link>
         </ButtonFlex>
     </StyledStep>
   )

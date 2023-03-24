@@ -86,3 +86,8 @@ export const InlineCard = styled.button`
         }
     }
 `
+
+export const AddOnsCard = styled.div `
+    margin-top: 3em;
+    margin-bottom: 3em;
+`
